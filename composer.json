@@ -21,7 +21,8 @@
         "nunomaduro/collision": "^7.0",
         "pestphp/pest": "^2.0",
         "pestphp/pest-plugin-laravel": "^2.0",
-        "spatie/laravel-ignition": "^2.0"
+        "spatie/laravel-ignition": "^2.0",
+        "tightenco/duster": "^2.0"
     },
     "autoload": {
         "psr-4": {
@@ -48,6 +49,15 @@
         ],
         "post-create-project-cmd": [
             "@php artisan key:generate --ansi"
+        ],
+        "format": [
+            "./vendor/bin/duster fix"
+        ],
+        "pint": [
+            "./vendor/bin/duster fix --using='pint'"
+        ],
+        "test": [
+            "./vendor/bin/pest"
         ]
     },
     "extra": {
