@@ -1,0 +1,21 @@
+{
+    "plugins": [
+        "@shufo/prettier-plugin-blade",
+        "./node_modules/prettier-plugin-tailwindcss/"
+    ],
+    "overrides": [
+        {
+            "files": ["*.blade.php"],
+            "options": {
+                "parser": "blade"
+            }
+        }
+    ],
+    "arrowParens": "always",
+    "semi": false,
+    "singleQuote": true,
+    "tabWidth": 4,
+    "trailingComma": "es5",
+    "printWidth": 120,
+    "singleAttributePerLine": true
+}
