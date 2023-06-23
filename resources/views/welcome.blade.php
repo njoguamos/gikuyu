@@ -13,6 +13,6 @@
        @vite(['resources/css/app.css','resources/js/app.js'])
     </head>
     <body class="antialiased font-sans">
-        <h1>Welcome to Gĩkũyũ</h1>
+        <h1 class='font-2xl font-medium text-gray-900'>Welcome to Gĩkũyũ</h1>
     </body>
 </html>
