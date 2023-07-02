@@ -7,10 +7,10 @@
   resolved "https://registry.yarnpkg.com/@alloc/quick-lru/-/quick-lru-5.2.0.tgz#7bf68b20c0a350f936915fcae06f58e32007ce30"
   integrity sha512-UrcABB+4bUrFABwbluTIBErXwvbsU/V7TZWfmbgJfbkwiBuziS9gxdODUyuiecfdGQ85jglMW6juS3+z5TsKLw==
 
-"@alpinejs/focus@^3.10.5":
-  version "3.12.2"
-  resolved "https://registry.yarnpkg.com/@alpinejs/focus/-/focus-3.12.2.tgz#726d982e98431ea9d7efdf33aed3e06389eb7ae1"
-  integrity sha512-Uhu/0uSwgYSyzAeNT/kzrxiVKJQezwhUM1VxYwCpfOMT0OvKJ80Wl+M4R+5JJhsf+15B65rQnsE7no+TxpV5bg==
+"@alpinejs/focus@^3.12.3":
+  version "3.12.3"
+  resolved "https://registry.yarnpkg.com/@alpinejs/focus/-/focus-3.12.3.tgz#0cfb7fd987d08ba744c6defe6cd72c61559ed7d0"
+  integrity sha512-kIQwvvUPCfCO2REpceQ3uHNdN3oqDLvvvQNaHVgHoYqk+RrL3EcR6uOHyvHJUgOhaIjN5Uc3b7BaRNrKZbDGew==
   dependencies:
     focus-trap "^6.6.1"
 
