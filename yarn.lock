@@ -211,23 +211,23 @@
     mem "^8.0.0"
     php-parser "^3.1.5"
 
-"@shufo/prettier-plugin-blade@^1.8.13":
-  version "1.8.13"
-  resolved "https://registry.yarnpkg.com/@shufo/prettier-plugin-blade/-/prettier-plugin-blade-1.8.13.tgz#c5c73af14b6315393652cc33e2f951834d5b9690"
-  integrity sha512-J2+fV1Q/xP74oOF6R3BquzUovM213bQe/3L6pIvzPDolPZ22WrHEKi8edvjrOuEpbmNvD/NB8UYSmrn4UNlPLA==
+"@shufo/prettier-plugin-blade@^1.10.0":
+  version "1.10.0"
+  resolved "https://registry.yarnpkg.com/@shufo/prettier-plugin-blade/-/prettier-plugin-blade-1.10.0.tgz#12dab8eba5d3d8113ee5b05bc515374f6240f400"
+  integrity sha512-8pUg2V+X3fpttMi2mPD1adb7l9siE+zjoh83+OS8aCpt47BAZqxQg+hqfXX/5BWi1hV9B/v+C0v3BJWQ7tDQLQ==
   dependencies:
-    blade-formatter "^1.32.13"
-    prettier "^2.6.2"
+    blade-formatter "1.34.0"
+    prettier "3.0.0"
     synckit "^0.8.5"
 
-"@shufo/tailwindcss-class-sorter@^2.0.0":
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/@shufo/tailwindcss-class-sorter/-/tailwindcss-class-sorter-2.0.0.tgz#38bba1a14dab970056314f6fcda0226ff533fb38"
-  integrity sha512-whoaxr/m3Bi+UBnlsWpmf38/yhDAg9zeLKpU5syBNC68d9QINL2IwCt1zw1JuKHHSAqxiFY3Km5iJcFiz16WxQ==
+"@shufo/tailwindcss-class-sorter@3.0.1":
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/@shufo/tailwindcss-class-sorter/-/tailwindcss-class-sorter-3.0.1.tgz#f8823db276b614d23dd406414beac08275cc298d"
+  integrity sha512-y9SMobvwElX2G6vdg4odJ6UL6hu/o5RlMsdwEeDLGaqHU3BLSw9CeitGgBus6kadjjDdT2wseG0Tl5yXWdc4UQ==
   dependencies:
     escalade "^3.1.1"
     object-hash "^3.0.0"
-    tailwindcss "^3.2.4"
+    tailwindcss "^3.3.2"
 
 "@tailwindcss/forms@^0.5.4":
   version "0.5.4"
@@ -349,13 +349,13 @@ binary-extensions@^2.0.0:
   resolved "https://registry.yarnpkg.com/binary-extensions/-/binary-extensions-2.2.0.tgz#75f502eeaf9ffde42fc98829645be4ea76bd9e2d"
   integrity sha512-jDctJ/IVQbZoJykoeHbhXpOlNBqGNcwXJKJog42E5HDPUwQTSdjCHdihjj0DlnheQ7blbT6dHOafNAiS8ooQKA==
 
-blade-formatter@^1.32.13:
-  version "1.32.13"
-  resolved "https://registry.yarnpkg.com/blade-formatter/-/blade-formatter-1.32.13.tgz#8ac4f4cc75891410e53499d2cd47ddda89117840"
-  integrity sha512-CQOY2Zt6l+yUN7MmWGdxaZl320oSaJnf9Snrwi1JAoYL83jqwhpR4MCceVKBkUiM9YnPyRP7dTyQeorzOc+yUg==
+blade-formatter@1.34.0:
+  version "1.34.0"
+  resolved "https://registry.yarnpkg.com/blade-formatter/-/blade-formatter-1.34.0.tgz#e484e87c8a87d4246a249268b77b1421abbd2eed"
+  integrity sha512-AMJU55U43bHtdbXK6p239OPFrIu6x2v49nQLMx9nas3eJSDXIdv/89ZU0ZuWmtRdFKrceF4aBtwZ1/G/GcCveA==
   dependencies:
     "@prettier/plugin-php" "^0.19.0"
-    "@shufo/tailwindcss-class-sorter" "^2.0.0"
+    "@shufo/tailwindcss-class-sorter" "3.0.1"
     aigle "^1.14.1"
     ajv "^8.9.0"
     chalk "^4.1.0"
@@ -1239,7 +1239,12 @@ prettier-plugin-tailwindcss@^0.4.0:
   resolved "https://registry.yarnpkg.com/prettier-plugin-tailwindcss/-/prettier-plugin-tailwindcss-0.4.0.tgz#b3bd20e28514607c584d4ce515ed09b76cc16dd2"
   integrity sha512-Rna0sDPETA0KNhMHlN8wxKNgfSa8mTl2hPPAGxnbv6tUcHT6J4RQmQ8TLXyhB7Dm5Von4iHloBxTyClYM6wT0A==
 
-prettier@^2.2.0, prettier@^2.6.2, prettier@^2.8.8:
+prettier@3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/prettier/-/prettier-3.0.0.tgz#e7b19f691245a21d618c68bc54dc06122f6105ae"
+  integrity sha512-zBf5eHpwHOGPC47h0zrPyNn+eAEIdEzfywMoYn2XPi0P44Zp0tSq64rq0xAREh4auw2cJZHo9QUob+NqCQky4g==
+
+prettier@^2.2.0, prettier@^2.8.8:
   version "2.8.8"
   resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.8.8.tgz#e8c5d7e98a4305ffe3de2e1fc4aca1a71c28b1da"
   integrity sha512-tdN8qQGvNjw4CHbY+XXk0JgCXn9QiF21a55rBe5LJAU+kDyC4WQn4+awm2Xfk2lQMk5fKup9XgzTZtGkjBdP9Q==
@@ -1445,7 +1450,7 @@ tabbable@^5.3.3:
   resolved "https://registry.yarnpkg.com/tabbable/-/tabbable-5.3.3.tgz#aac0ff88c73b22d6c3c5a50b1586310006b47fbf"
   integrity sha512-QD9qKY3StfbZqWOPLp0++pOrAVb/HbUi5xCc8cUo4XjP19808oaMiDzn0leBY5mCespIBM0CIZePzZjgzR83kA==
 
-tailwindcss@^3.1.8, tailwindcss@^3.2.4, tailwindcss@^3.3.3:
+tailwindcss@^3.1.8, tailwindcss@^3.3.2, tailwindcss@^3.3.3:
   version "3.3.3"
   resolved "https://registry.yarnpkg.com/tailwindcss/-/tailwindcss-3.3.3.tgz#90da807393a2859189e48e9e7000e6880a736daf"
   integrity sha512-A0KgSkef7eE4Mf+nKJ83i75TMyq8HqY3qmFIJSWy8bNt0v1lG7jUcpGpoTFxAwYcWOphcTBLPPJg+bDfhDf52w==
