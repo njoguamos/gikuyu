@@ -204,13 +204,13 @@
     mem "^8.0.0"
     php-parser "^3.1.5"
 
-"@shufo/prettier-plugin-blade@^1.10.1":
-  version "1.10.1"
-  resolved "https://registry.yarnpkg.com/@shufo/prettier-plugin-blade/-/prettier-plugin-blade-1.10.1.tgz#460dfdfc8e9b64fc1da878360d4d3f64f51adbb2"
-  integrity sha512-6RNLs/NatWu5+bJZpAuNzwN+AXCC1+xdScLElIrWSsccg4WwgLuVzkUGHyJbeGArguAQM1+fYsDGDWEZcrq9tQ==
+"@shufo/prettier-plugin-blade@^1.11.0":
+  version "1.11.0"
+  resolved "https://registry.yarnpkg.com/@shufo/prettier-plugin-blade/-/prettier-plugin-blade-1.11.0.tgz#0a96c15d0f6497f5acefdb73b8ee7bd0e7c221a6"
+  integrity sha512-RqsREOOA0LLl1Km2Trd39AU97yaTxHS3OCmKqdyKDppITh/8KFIIul2CifFtz2N9w12BFZQgIa32Urhvct85Xg==
   dependencies:
-    blade-formatter "1.36.0"
-    prettier "3.0.0"
+    blade-formatter "1.37.0"
+    prettier "3.0.1"
 
 "@shufo/tailwindcss-class-sorter@3.0.1":
   version "3.0.1"
@@ -336,10 +336,10 @@ binary-extensions@^2.0.0:
   resolved "https://registry.yarnpkg.com/binary-extensions/-/binary-extensions-2.2.0.tgz#75f502eeaf9ffde42fc98829645be4ea76bd9e2d"
   integrity sha512-jDctJ/IVQbZoJykoeHbhXpOlNBqGNcwXJKJog42E5HDPUwQTSdjCHdihjj0DlnheQ7blbT6dHOafNAiS8ooQKA==
 
-blade-formatter@1.36.0:
-  version "1.36.0"
-  resolved "https://registry.yarnpkg.com/blade-formatter/-/blade-formatter-1.36.0.tgz#a834e5745ae133467e832c0b8c33e2f4138b81d9"
-  integrity sha512-M8qvXoyMTmYmAbFOqjnSTc0IPpnXJfbIfFDDTFo2U/tv5CV8R7i9O4dxDpVovnxjduVjcoTUoBlepqAjWC+ktg==
+blade-formatter@1.37.0:
+  version "1.37.0"
+  resolved "https://registry.yarnpkg.com/blade-formatter/-/blade-formatter-1.37.0.tgz#8e9e7a850a371ce46ce011d9fbe62ef16fcbe4e9"
+  integrity sha512-54XglGjcBQBzZr076CVmZLCrlHP77ojN2Ee+MkTrnZu3DUwWk+YP5sYIPFS5bRoVLND8IW4v5eEhwVN1imU26Q==
   dependencies:
     "@prettier/plugin-php" "^0.19.0"
     "@shufo/tailwindcss-class-sorter" "3.0.1"
@@ -1039,20 +1039,15 @@ prettier-plugin-tailwindcss@^0.4.1:
   resolved "https://registry.yarnpkg.com/prettier-plugin-tailwindcss/-/prettier-plugin-tailwindcss-0.4.1.tgz#f7ed664199540978b2cbd037bac3a337d6689e86"
   integrity sha512-hwn2EiJmv8M+AW4YDkbjJ6HlZCTzLyz1QlySn9sMuKV/Px0fjwldlB7tol8GzdgqtkdPtzT3iJ4UzdnYXP25Ag==
 
-prettier@3.0.0:
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/prettier/-/prettier-3.0.0.tgz#e7b19f691245a21d618c68bc54dc06122f6105ae"
-  integrity sha512-zBf5eHpwHOGPC47h0zrPyNn+eAEIdEzfywMoYn2XPi0P44Zp0tSq64rq0xAREh4auw2cJZHo9QUob+NqCQky4g==
+prettier@3.0.1, prettier@^3.0.1:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/prettier/-/prettier-3.0.1.tgz#65271fc9320ce4913c57747a70ce635b30beaa40"
+  integrity sha512-fcOWSnnpCrovBsmFZIGIy9UqK2FaI7Hqax+DIO0A9UxeVoY4iweyaFjS5TavZN97Hfehph0nhsZnjlVKzEQSrQ==
 
 prettier@^2.2.0:
   version "2.8.8"
   resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.8.8.tgz#e8c5d7e98a4305ffe3de2e1fc4aca1a71c28b1da"
   integrity sha512-tdN8qQGvNjw4CHbY+XXk0JgCXn9QiF21a55rBe5LJAU+kDyC4WQn4+awm2Xfk2lQMk5fKup9XgzTZtGkjBdP9Q==
-
-prettier@^3.0.1:
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/prettier/-/prettier-3.0.1.tgz#65271fc9320ce4913c57747a70ce635b30beaa40"
-  integrity sha512-fcOWSnnpCrovBsmFZIGIy9UqK2FaI7Hqax+DIO0A9UxeVoY4iweyaFjS5TavZN97Hfehph0nhsZnjlVKzEQSrQ==
 
 proto-list@~1.2.1:
   version "1.2.4"
