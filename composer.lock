@@ -3725,16 +3725,16 @@
         },
         {
             "name": "symfony/console",
-            "version": "v6.3.2",
+            "version": "v6.3.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/console.git",
-                "reference": "aa5d64ad3f63f2e48964fc81ee45cb318a723898"
+                "reference": "eca495f2ee845130855ddf1cf18460c38966c8b6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/console/zipball/aa5d64ad3f63f2e48964fc81ee45cb318a723898",
-                "reference": "aa5d64ad3f63f2e48964fc81ee45cb318a723898",
+                "url": "https://api.github.com/repos/symfony/console/zipball/eca495f2ee845130855ddf1cf18460c38966c8b6",
+                "reference": "eca495f2ee845130855ddf1cf18460c38966c8b6",
                 "shasum": ""
             },
             "require": {
@@ -3795,7 +3795,7 @@
                 "terminal"
             ],
             "support": {
-                "source": "https://github.com/symfony/console/tree/v6.3.2"
+                "source": "https://github.com/symfony/console/tree/v6.3.4"
             },
             "funding": [
                 {
@@ -3811,7 +3811,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-07-19T20:17:28+00:00"
+            "time": "2023-08-16T10:10:12+00:00"
         },
         {
             "name": "symfony/css-selector",
@@ -5330,16 +5330,16 @@
         },
         {
             "name": "symfony/process",
-            "version": "v6.3.2",
+            "version": "v6.3.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/process.git",
-                "reference": "c5ce962db0d9b6e80247ca5eb9af6472bd4d7b5d"
+                "reference": "0b5c29118f2e980d455d2e34a5659f4579847c54"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/process/zipball/c5ce962db0d9b6e80247ca5eb9af6472bd4d7b5d",
-                "reference": "c5ce962db0d9b6e80247ca5eb9af6472bd4d7b5d",
+                "url": "https://api.github.com/repos/symfony/process/zipball/0b5c29118f2e980d455d2e34a5659f4579847c54",
+                "reference": "0b5c29118f2e980d455d2e34a5659f4579847c54",
                 "shasum": ""
             },
             "require": {
@@ -5371,7 +5371,7 @@
             "description": "Executes commands in sub-processes",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/process/tree/v6.3.2"
+                "source": "https://github.com/symfony/process/tree/v6.3.4"
             },
             "funding": [
                 {
@@ -5387,7 +5387,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-07-12T16:00:22+00:00"
+            "time": "2023-08-07T10:39:22+00:00"
         },
         {
             "name": "symfony/routing",
@@ -7214,16 +7214,16 @@
         },
         {
             "name": "pestphp/pest",
-            "version": "v2.13.0",
+            "version": "v2.16.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pestphp/pest.git",
-                "reference": "47f2ae32c14cd3f15520f5a12a3c36fdec25a2ee"
+                "reference": "cbd6a650576714c673dbb0575989663f7f5c8b6d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pestphp/pest/zipball/47f2ae32c14cd3f15520f5a12a3c36fdec25a2ee",
-                "reference": "47f2ae32c14cd3f15520f5a12a3c36fdec25a2ee",
+                "url": "https://api.github.com/repos/pestphp/pest/zipball/cbd6a650576714c673dbb0575989663f7f5c8b6d",
+                "reference": "cbd6a650576714c673dbb0575989663f7f5c8b6d",
                 "shasum": ""
             },
             "require": {
@@ -7231,16 +7231,16 @@
                 "nunomaduro/collision": "^7.8.1",
                 "nunomaduro/termwind": "^1.15.1",
                 "pestphp/pest-plugin": "^2.0.1",
-                "pestphp/pest-plugin-arch": "^2.2.3",
+                "pestphp/pest-plugin-arch": "^2.3.1",
                 "php": "^8.1.0",
-                "phpunit/phpunit": "^10.3.1"
+                "phpunit/phpunit": "^10.3.2"
             },
             "conflict": {
-                "phpunit/phpunit": ">10.3.1",
+                "phpunit/phpunit": ">10.3.2",
                 "webmozart/assert": "<1.11.0"
             },
             "require-dev": {
-                "pestphp/pest-dev-tools": "^2.14.0",
+                "pestphp/pest-dev-tools": "^2.16.0",
                 "pestphp/pest-plugin-type-coverage": "^2.0.0",
                 "symfony/process": "^6.3.2"
             },
@@ -7300,7 +7300,7 @@
             ],
             "support": {
                 "issues": "https://github.com/pestphp/pest/issues",
-                "source": "https://github.com/pestphp/pest/tree/v2.13.0"
+                "source": "https://github.com/pestphp/pest/tree/v2.16.0"
             },
             "funding": [
                 {
@@ -7312,33 +7312,34 @@
                     "type": "github"
                 }
             ],
-            "time": "2023-08-09T11:14:39+00:00"
+            "time": "2023-08-21T08:42:07+00:00"
         },
         {
             "name": "pestphp/pest-plugin",
-            "version": "v2.0.1",
+            "version": "v2.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pestphp/pest-plugin.git",
-                "reference": "e3a3da262b73bdcbf3fad4dc9846c3c4921f2147"
+                "reference": "e05d2859e08c2567ee38ce8b005d044e72648c0b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pestphp/pest-plugin/zipball/e3a3da262b73bdcbf3fad4dc9846c3c4921f2147",
-                "reference": "e3a3da262b73bdcbf3fad4dc9846c3c4921f2147",
+                "url": "https://api.github.com/repos/pestphp/pest-plugin/zipball/e05d2859e08c2567ee38ce8b005d044e72648c0b",
+                "reference": "e05d2859e08c2567ee38ce8b005d044e72648c0b",
                 "shasum": ""
             },
             "require": {
                 "composer-plugin-api": "^2.0.0",
+                "composer-runtime-api": "^2.2.2",
                 "php": "^8.1"
             },
             "conflict": {
                 "pestphp/pest": "<2.2.3"
             },
             "require-dev": {
-                "composer/composer": "^2.5.5",
-                "pestphp/pest": "^2.2.3",
-                "pestphp/pest-dev-tools": "^2.5.0"
+                "composer/composer": "^2.5.8",
+                "pestphp/pest": "^2.16.0",
+                "pestphp/pest-dev-tools": "^2.16.0"
             },
             "type": "composer-plugin",
             "extra": {
@@ -7365,7 +7366,7 @@
                 "unit"
             ],
             "support": {
-                "source": "https://github.com/pestphp/pest-plugin/tree/v2.0.1"
+                "source": "https://github.com/pestphp/pest-plugin/tree/v2.1.1"
             },
             "funding": [
                 {
@@ -7381,31 +7382,31 @@
                     "type": "patreon"
                 }
             ],
-            "time": "2023-03-24T11:21:05+00:00"
+            "time": "2023-08-22T08:40:06+00:00"
         },
         {
             "name": "pestphp/pest-plugin-arch",
-            "version": "v2.2.3",
+            "version": "v2.3.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pestphp/pest-plugin-arch.git",
-                "reference": "f44834b728b44028fb7d99c4e3efc88b699728a8"
+                "reference": "b758990e83f89daba3c45672398579cf8692213f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pestphp/pest-plugin-arch/zipball/f44834b728b44028fb7d99c4e3efc88b699728a8",
-                "reference": "f44834b728b44028fb7d99c4e3efc88b699728a8",
+                "url": "https://api.github.com/repos/pestphp/pest-plugin-arch/zipball/b758990e83f89daba3c45672398579cf8692213f",
+                "reference": "b758990e83f89daba3c45672398579cf8692213f",
                 "shasum": ""
             },
             "require": {
-                "nunomaduro/collision": "^7.7.0",
+                "nunomaduro/collision": "^7.8.1",
                 "pestphp/pest-plugin": "^2.0.1",
                 "php": "^8.1",
-                "ta-tikoma/phpunit-architecture-test": "^0.7.3"
+                "ta-tikoma/phpunit-architecture-test": "^0.7.4"
             },
             "require-dev": {
-                "pestphp/pest": "^2.9.4",
-                "pestphp/pest-dev-tools": "^2.12.0"
+                "pestphp/pest": "^2.16.0",
+                "pestphp/pest-dev-tools": "^2.16.0"
             },
             "type": "library",
             "autoload": {
@@ -7433,7 +7434,7 @@
                 "unit"
             ],
             "support": {
-                "source": "https://github.com/pestphp/pest-plugin-arch/tree/v2.2.3"
+                "source": "https://github.com/pestphp/pest-plugin-arch/tree/v2.3.3"
             },
             "funding": [
                 {
@@ -7445,7 +7446,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2023-07-24T18:04:14+00:00"
+            "time": "2023-08-21T16:06:30+00:00"
         },
         {
             "name": "pestphp/pest-plugin-laravel",
@@ -8164,16 +8165,16 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "10.3.1",
+            "version": "10.3.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "d442ce7c4104d5683c12e67e4dcb5058159e9804"
+                "reference": "0dafb1175c366dd274eaa9a625e914451506bcd1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/d442ce7c4104d5683c12e67e4dcb5058159e9804",
-                "reference": "d442ce7c4104d5683c12e67e4dcb5058159e9804",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/0dafb1175c366dd274eaa9a625e914451506bcd1",
+                "reference": "0dafb1175c366dd274eaa9a625e914451506bcd1",
                 "shasum": ""
             },
             "require": {
@@ -8245,7 +8246,7 @@
             "support": {
                 "issues": "https://github.com/sebastianbergmann/phpunit/issues",
                 "security": "https://github.com/sebastianbergmann/phpunit/security/policy",
-                "source": "https://github.com/sebastianbergmann/phpunit/tree/10.3.1"
+                "source": "https://github.com/sebastianbergmann/phpunit/tree/10.3.2"
             },
             "funding": [
                 {
@@ -8261,7 +8262,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-08-04T06:48:08+00:00"
+            "time": "2023-08-15T05:34:23+00:00"
         },
         {
             "name": "sebastian/cli-parser",
@@ -8432,16 +8433,16 @@
         },
         {
             "name": "sebastian/comparator",
-            "version": "5.0.0",
+            "version": "5.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/comparator.git",
-                "reference": "72f01e6586e0caf6af81297897bd112eb7e9627c"
+                "reference": "2db5010a484d53ebf536087a70b4a5423c102372"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/comparator/zipball/72f01e6586e0caf6af81297897bd112eb7e9627c",
-                "reference": "72f01e6586e0caf6af81297897bd112eb7e9627c",
+                "url": "https://api.github.com/repos/sebastianbergmann/comparator/zipball/2db5010a484d53ebf536087a70b4a5423c102372",
+                "reference": "2db5010a484d53ebf536087a70b4a5423c102372",
                 "shasum": ""
             },
             "require": {
@@ -8452,7 +8453,7 @@
                 "sebastian/exporter": "^5.0"
             },
             "require-dev": {
-                "phpunit/phpunit": "^10.0"
+                "phpunit/phpunit": "^10.3"
             },
             "type": "library",
             "extra": {
@@ -8496,7 +8497,8 @@
             ],
             "support": {
                 "issues": "https://github.com/sebastianbergmann/comparator/issues",
-                "source": "https://github.com/sebastianbergmann/comparator/tree/5.0.0"
+                "security": "https://github.com/sebastianbergmann/comparator/security/policy",
+                "source": "https://github.com/sebastianbergmann/comparator/tree/5.0.1"
             },
             "funding": [
                 {
@@ -8504,7 +8506,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2023-02-03T07:07:16+00:00"
+            "time": "2023-08-14T13:18:12+00:00"
         },
         {
             "name": "sebastian/complexity",
