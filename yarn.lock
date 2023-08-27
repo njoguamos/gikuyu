@@ -7,12 +7,13 @@
   resolved "https://registry.yarnpkg.com/@alloc/quick-lru/-/quick-lru-5.2.0.tgz#7bf68b20c0a350f936915fcae06f58e32007ce30"
   integrity sha512-UrcABB+4bUrFABwbluTIBErXwvbsU/V7TZWfmbgJfbkwiBuziS9gxdODUyuiecfdGQ85jglMW6juS3+z5TsKLw==
 
-"@alpinejs/focus@^3.12.3":
-  version "3.12.3"
-  resolved "https://registry.yarnpkg.com/@alpinejs/focus/-/focus-3.12.3.tgz#0cfb7fd987d08ba744c6defe6cd72c61559ed7d0"
-  integrity sha512-kIQwvvUPCfCO2REpceQ3uHNdN3oqDLvvvQNaHVgHoYqk+RrL3EcR6uOHyvHJUgOhaIjN5Uc3b7BaRNrKZbDGew==
+"@alpinejs/focus@^3.13.0":
+  version "3.13.0"
+  resolved "https://registry.yarnpkg.com/@alpinejs/focus/-/focus-3.13.0.tgz#4310570d858896dec83611557ad5766e9cd908ad"
+  integrity sha512-8ls5d6oIYtsnIeYRMczPTo2uUW0Qj7uJQII5PIksaKVPqrHPU94qcmYWZnKJ4yW0moUGaC1/Km/XrA5GzVXeRA==
   dependencies:
-    focus-trap "^6.6.1"
+    focus-trap "^6.9.4"
+    tabbable "^5.3.3"
 
 "@babel/runtime-corejs3@^7.16.5":
   version "7.22.5"
@@ -601,7 +602,7 @@ find-config@^1.0.0:
   dependencies:
     user-home "^2.0.0"
 
-focus-trap@^6.6.1:
+focus-trap@^6.9.4:
   version "6.9.4"
   resolved "https://registry.yarnpkg.com/focus-trap/-/focus-trap-6.9.4.tgz#436da1a1d935c48b97da63cd8f361c6f3aa16444"
   integrity sha512-v2NTsZe2FF59Y+sDykKY+XjqZ0cPfhq/hikWVL88BqLivnNiEffAsac6rP6H45ff9wG9LL5ToiDqrLEP9GX9mw==
