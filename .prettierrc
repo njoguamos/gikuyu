@@ -1,11 +1,13 @@
 {
     "plugins": [
         "@shufo/prettier-plugin-blade",
-        "./node_modules/prettier-plugin-tailwindcss/"
+        "prettier-plugin-tailwindcss"
     ],
     "overrides": [
         {
-            "files": ["*.blade.php"],
+            "files": [
+                "*.blade.php"
+            ],
             "options": {
                 "parser": "blade"
             }
