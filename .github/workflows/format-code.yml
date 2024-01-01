@@ -58,7 +58,7 @@ jobs:
           git checkout -B "${{ env.FIXER_BRANCH }}"
 
       - name: Apply auto-fixers
-        run: yarn format && composer format
+        run: yarn fmt && composer format
 
       - name: Create Fixer PR
         run: |
