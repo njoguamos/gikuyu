@@ -286,12 +286,12 @@
   resolved "https://registry.yarnpkg.com/@rollup/rollup-win32-x64-msvc/-/rollup-win32-x64-msvc-4.9.6.tgz#2c1fb69e02a3f1506f52698cfdc3a8b6386df9a6"
   integrity sha512-jqzNLhNDvIZOrt69Ce4UjGRpXJBzhUBzawMwnaDAwyHriki3XollsewxWzOzz+4yOFDkuJHtTsZFwMxhYJWmLQ==
 
-"@shufo/prettier-plugin-blade@^1.13.5":
-  version "1.13.5"
-  resolved "https://registry.yarnpkg.com/@shufo/prettier-plugin-blade/-/prettier-plugin-blade-1.13.5.tgz#2c174a2a45ae1b933641a9e10f62f34015e6d379"
-  integrity sha512-GD11dWg6c1iBbCijwXeqPvxoFz8DIkRKcj6js6SEAw5gAXLhhj6JJfLWhgeCUo0FibInW9JyXY9yAc5Bbq/PaQ==
+"@shufo/prettier-plugin-blade@^1.14.1":
+  version "1.14.1"
+  resolved "https://registry.yarnpkg.com/@shufo/prettier-plugin-blade/-/prettier-plugin-blade-1.14.1.tgz#87d3f4996941a610feba099a4ed5764173d87c52"
+  integrity sha512-CPeFzNOh/wHlEFTUzt+mqOe66oXRSh51/DQzmv9DaN77I8QzLVwoKNx10bl+9PtZVc65+6kE4dg7+4iG1epqeA==
   dependencies:
-    blade-formatter "1.40.1"
+    blade-formatter "1.41.1"
     prettier "3.2.5"
 
 "@shufo/tailwindcss-class-sorter@3.0.1":
@@ -433,10 +433,10 @@ binary-extensions@^2.0.0:
   resolved "https://registry.yarnpkg.com/binary-extensions/-/binary-extensions-2.2.0.tgz#75f502eeaf9ffde42fc98829645be4ea76bd9e2d"
   integrity sha512-jDctJ/IVQbZoJykoeHbhXpOlNBqGNcwXJKJog42E5HDPUwQTSdjCHdihjj0DlnheQ7blbT6dHOafNAiS8ooQKA==
 
-blade-formatter@1.40.1:
-  version "1.40.1"
-  resolved "https://registry.yarnpkg.com/blade-formatter/-/blade-formatter-1.40.1.tgz#fdd6bc33342ee19e1c7ef9d444a03f649cbb461a"
-  integrity sha512-TULnwSXLepfW+bnMQyYqaUhoxA65VwaOCNhipgsmAJ+c1FvedAc4AgWqVtcGUndAWU+MkHP/g+0r8kU22THfJg==
+blade-formatter@1.41.1:
+  version "1.41.1"
+  resolved "https://registry.yarnpkg.com/blade-formatter/-/blade-formatter-1.41.1.tgz#9669faf42933c146fb95ebc38ddd54c4ead3a4cd"
+  integrity sha512-J4L0hsw+r6XSnrEpHMPDldfPeaEmhHwXacs5oFh+9FgDu2Ec7p1tLxA8QXdgcXZU0ILTMkzAtusia10oP05g3Q==
   dependencies:
     "@prettier/plugin-php" "^0.22.2"
     "@shufo/tailwindcss-class-sorter" "3.0.1"
